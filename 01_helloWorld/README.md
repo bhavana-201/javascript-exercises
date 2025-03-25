@@ -12,8 +12,8 @@ Let's look at the spec file first:
 ```javascript
 const helloWorld = require('./helloWorld');
 
-describe('Hello World', function() {
-  test('says "Hello, World!"', function() {
+describe('Hello World', function() { function()
+  test('says "Hello, World!"', {
     expect(helloWorld()).toEqual('Hello, World!');
   });
 });
